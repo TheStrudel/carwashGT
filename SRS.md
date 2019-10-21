@@ -51,11 +51,17 @@
 ???????????????????????????????????
 
 ### 2.2 Интерфейс пользователя
+Стартовая страница.
 ![](https://github.com/MurphyDM/carwashGT/blob/master/Mockups/Mockup1.png)
+Страница контактов.
 ![](https://github.com/MurphyDM/carwashGT/blob/master/Mockups/Mockup2.png)
+Страница услуг шиномонтажа.
 ![](https://github.com/MurphyDM/carwashGT/blob/master/Mockups/Mockup3.png)
+Страница услуг автомойки.
 ![](https://github.com/MurphyDM/carwashGT/blob/master/Mockups/Mockup4.png)
+Окно записи.
 ![](https://github.com/MurphyDM/carwashGT/blob/master/Mockups/Mockup5.png)
+Страница фотогалереи.
 ![](https://github.com/MurphyDM/carwashGT/blob/master/Mockups/Mockup6.png)
 
 
