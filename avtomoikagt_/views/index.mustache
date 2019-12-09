@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--Basic Page Needs-->
+{{>head}}
+</head>
+<body  class="animsition">
+
+{{>header}}
+
+	<section id="slider-deli">
+		<!-- Slider -->
+		<div class="rev_slider_wrapper fullscreen-container" >
+			<div id="rev_slider_1" class="rev_slide fullscreenbanner" style="display: none;">
+				<ul>
+					<!-- Slide 1 -->
+					<li data-transition="fade" data-delay="51000">
+						<img src="images/slide-01.jpg" alt="Seasonal Flavours" class="rev-slidebg"
+						data-bgposition="center center"
+						data-bgfit="cover" 
+         				data-bgrepeat="no-repeat">
+					
+						<h3 class="tp-caption tp-resizeme caption-1" 
+						data-frames='[{"delay":500,"speed":1800,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+					    data-x="center" 
+					    data-y="middle" 
+					    data-hoffset="0" 
+					    data-voffset="['-50','-50','-100','-120']" 
+					    data-width="['1140','960','720','540']"
+					    data-lineheight="['150', '150', '120', '100']"
+					    data-fontsize="['150', '150', '140', '130']"
+					    data-height="['auto']">Мы открылись!</h3>
+						
+					</li>
+
+
+					<!-- Slide 2 -->
+
+				
+					<li data-transition="fade">
+					    <img src="images/slide-02.jpg" alt= "Fresh Ingredients" class="rev-slidebg" data-bgposition= "center" data-bgfit="cover"> 
+
+						<h3 class="tp-caption tp-resizeme  caption-1" 
+						data-frames='[{"delay":500,"split":"chars","splitdelay":0.05,"speed":1500,"frame":"0","from":"x:[105%];z:0;rX:45deg;rY:0deg;rZ:90deg;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+					    data-x="center" 
+					    data-y="center" 
+					    data-hoffset="0" 
+					    data-voffset="['-80','-80','-140','-140']" 
+					    data-width="['1140','960','720','540']"
+					    data-lineheight="['150', '150', '120', '100']"
+					    data-fontsize="['110', '110', '100', '90']"
+					    data-height="['auto']">АКЦИЯ!</h3>
+
+					    <div  class="tp-caption tp-resizeme btn-slide caption-2"
+						data-frames='[{"delay":2500,"speed":1000,"frame":"0","from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+					    data-x="center" 
+					    data-y="center" 
+					    data-hoffset="0" 
+					    data-voffset="['15','15','15','5']" 
+					    data-width="['910','910','380','380']"
+					    data-height="['auto']">какой-нибудь текст</div>
+						
+						<div id="btn-slide-2" class="tp-caption tp-resizeme btn-slide"
+						data-frames='[{"delay":3100,"speed":1500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+					    data-x="center" 
+					    data-y="center" 
+					    data-hoffset="0" 
+					    data-voffset="['110','110','140','140']" 
+					    data-width="['910','910','380','380']"
+					    data-height="['auto']">
+								<a href="#services" class="btn1">УСЛУГИ</a>
+								<a href="#reservation" class="btn2">ЗАПИСЬ</a>
+						</div>
+					</li> 
+
+		<!-- End Slider -->
+	</section>
+
+
+	<!-- Our Menu -->
+	<a name = "service"> 
+	<section class="our-menu" >
+		<div class="container">
+			<!-- title our menu -->
+			<div class="wrap-title-our-menu row">
+				<div class="col-12 title-our-menu">
+					<h2>Услуги</h2>
+				</div>
+			</div>
+
+			<!-- menu -->
+
+			<div class="row wrap-food-menu">
+				<div id="food-menu">
+					<ul class="nav nav-tabs" id="myTab" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" id="home-tab" data-toggle="tab" href="#lunch" role="tab" aria-controls="lunch" aria-expanded="true">Автомойка</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="tab-dinner" data-toggle="tab" href="#dinner" role="tab" aria-controls="dinner">СТО</a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+
+			<!-- list  -->
+			<div class="tab-content" id="myTabContent">
+				<!-- carwash -->		
+				<a name=service_carwash>	
+				<div class="tab-pane fade show active" id="lunch" role="tabpanel" aria-labelledby="home-tab">
+					<div class="wrap-list-food">
+						<div class="row list-food">
+							<div class="col-md-10 col-lg-6">
+								<!-- item  -->
+								<div class="item-food row wow fadeInDown" data-wow-delay="0.2s">
+									<div class="col-12 col-sm-8 text-list-food ">
+											<div class="name-price row">
+												<div class="name-food col-12 col-sm-auto">услуга1</a></div>
+												<div class="line-food col">
+													<div class="add-line-run"></div>
+												</div>
+											</div>
+											<div class="row"> 
+												<div class="col-12 col-sm-12 info-food">
+													описание
+												</div>
+											</div>
+									</div>
+									<div class="price-food col-12 col-sm-2">&#36;20.00</div>
+								</div>
+							</div>
+							<div class="col-md-10 col-lg-6">
+								<!-- item  -->
+								<div class="item-food row wow fadeInDown" data-wow-delay="0.2s">
+									<div class="col-12 col-sm-8 text-list-food ">
+											<div class="name-price row">
+												<div class="name-food col-12 col-sm-auto">услуга2</a></div>
+												<div class="line-food col">
+													<div class="add-line-run"></div>
+												</div>
+											</div>
+											<div class="row"> 
+												<div class="col-12 col-sm-12 info-food">
+													описание
+												</div>
+											</div>
+									</div>
+									<div class="price-food col-12 col-sm-2">&#36;10.00</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row list-food">
+							<div class="col-md-10 col-lg-6">
+								<!-- item  -->
+								<div class="item-food row wow fadeInDown" data-wow-delay="0.4s">
+									<div class="col-12 col-sm-8 text-list-food ">
+											<div class="name-price row">
+												<div class="name-food col-12 col-sm-auto">услуга3</a></div>
+												<div class="line-food col">
+													<div class="add-line-run"></div>
+												</div>
+											</div>
+											<div class="row"> 
+												<div class="col-12 col-sm-12 info-food">
+													описание
+												</div>
+											</div>
+									</div>
+									<div class="price-food col-12 col-sm-2">&#36;10.00</div>
+								</div>	
+							</div>
+							<div class="col-md-10 col-lg-6">
+								<!-- item  -->
+								<div class="item-food row wow fadeInDown" data-wow-delay="0.4s">
+									
+									<div class="col-12 col-sm-8 text-list-food ">
+											<div class="name-price row">
+												<div class="name-food col-12 col-sm-auto">услуга4</a></div>
+												<div class="line-food col">
+													<div class="add-line-run"></div>
+												</div>
+											</div>
+											<div class="row"> 
+												<div class="col-12 col-sm-12 info-food">
+													описание
+												</div>
+											</div>
+									</div>
+									<div class="price-food col-12 col-sm-2">&#36;15.00</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row list-food">
+							<div class="col-md-10 col-lg-6">
+								<!-- item  -->
+								<div class="item-food row wow fadeInDown" data-wow-delay="0.6s">
+									
+									<div class="col-12 col-sm-8 text-list-food ">
+											<div class="name-price row">
+												<div class="name-food col-12 col-sm-auto">услуга5</a></div>
+												<div class="line-food col">
+													<div class="add-line-run"></div>
+												</div>
+											</div>
+											<div class="row"> 
+												<div class="col-12 col-sm-12 info-food">
+													описание
+												</div>
+											</div>
+									</div>
+									<div class="price-food col-12 col-sm-2">&#36;15.00</div>
+								</div>	
+							</div>
+							<div class="col-md-10 col-lg-6">
+								<!-- item  -->
+								<div class="item-food row wow fadeInDown" data-wow-delay="0.6s">
+									
+									<div class="col-12 col-sm-8 text-list-food ">
+											<div class="name-price row">
+												<div class="name-food col-12 col-sm-auto">услуга6</a></div>
+												<div class="line-food col">
+													<div class="add-line-run"></div>
+												</div>
+											</div>
+											<div class="row"> 
+												<div class="col-12 col-sm-12 info-food">
+													описание
+												</div>
+											</div>
+									</div>
+									<div class="price-food col-12 col-sm-2">&#36;30.00</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row list-food">
+							<div class="col-md-10 col-lg-6">
+								<!-- item  -->
+								<div class="item-food row wow fadeInDown" data-wow-delay="0.8s">
+									
+									<div class="col-12 col-sm-8 text-list-food ">
+											<div class="name-price row">
+												<div class="name-food col-12 col-sm-auto">услуга7</a></div>
+												<div class="line-food col">
+													<div class="add-line-run"></div>
+												</div>
+											</div>
+											<div class="row"> 
+												<div class="col-12 col-sm-12 info-food">
+													описание
+												</div>
+											</div>
+									</div>
+									<div class="price-food col-12 col-sm-2">&#36;5.00</div>
+								</div>
+							</div>
+							<div class="col-md-10 col-lg-6">
+								<!-- item  -->
+								<div class="item-food row wow fadeInDown" data-wow-delay="0.8s">
+									
+									<div class="col-12 col-sm-8 text-list-food ">
+											<div class="name-price row">
+												<div class="name-food col-12 col-sm-auto">услуга8</a></div>
+												<div class="line-food col">
+													<div class="add-line-run"></div>
+												</div>
+											</div>
+											<div class="row"> 
+												<div class="col-12 col-sm-12 info-food">
+													описание
+												</div>
+											</div>
+									</div>
+									<div class="price-food col-12 col-sm-2">&#36;5.00</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+</a>
+
+
+				<!-- sto -->
+				<a name= service_sto>
+				<div class="tab-pane fade" id="dinner" role="tabpanel" aria-labelledby="tab-dinner">
+					<div class="wrap-list-food">
+						<div class="row list-food">
+							<div class="col-md-10 col-lg-6">
+								<!-- item  -->
+								<div class="item-food row">
+									
+									<div class="col-12 col-sm-8 text-list-food ">
+											<div class="name-price row">
+												<div class="name-food col-12 col-sm-auto">услуга1</a></div>
+												<div class= "line-food col">
+													<div class="add-line-run"></div>
+												</div>
+											</div>
+											<div class="row"> 
+												<div class="col-12 col-sm-12 info-food">
+													описание
+												</div>
+											</div>
+									</div>
+									<div class="price-food col-12 col-sm-2">&#36;15.00</div>
+								</div>
+							</div>
+							<div class="col-md-10 col-lg-6">
+								<!-- item  -->
+								<div class="item-food row">
+									
+									<div class="col-12 col-sm-8 text-list-food ">
+											<div class="name-price row">
+												<div class="name-food col-12 col-sm-auto">услуга2</a></div>
+												<div class="line-food col">
+													<div class="add-line-run"></div>
+												</div>
+											</div>
+											<div class="row"> 
+												<div class="col-12 col-sm-12 info-food">
+													описание
+												</div>
+											</div>
+									</div>
+									<div class="price-food col-12 col-sm-2">&#36;30.00</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row list-food">
+							<div class="col-md-10 col-lg-6">
+								<!-- item  -->
+								<div class="item-food row">
+									
+									<div class="col-12 col-sm-8 text-list-food ">
+											<div class="name-price row">
+												<div class="name-food col-12 col-sm-auto">услуга3</a></div>
+												<div class="line-food col">
+													<div class="add-line-run"></div>
+												</div>
+											</div>
+											<div class="row"> 
+												<div class="col-12 col-sm-12 info-food">
+													описание
+												</div>
+											</div>
+									</div>
+									<div class="price-food col-12 col-sm-2">&#36;5.00</div>
+								</div>
+							</div>
+							<div class="col-md-10 col-lg-6">
+								<!-- item  -->
+								<div class="item-food row">
+									
+									<div class="col-12 col-sm-8 text-list-food ">
+											<div class="name-price row">
+												<div class="name-food col-12 col-sm-auto">услуга4</a></div>
+												<div class="line-food col">
+													<div class="add-line-run"></div>
+												</div>
+											</div>
+											<div class="row"> 
+												<div class="col-12 col-sm-12 info-food">
+													описание
+												</div>
+											</div>
+									</div>
+									<div class="price-food col-12 col-sm-2">&#36;5.00</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row list-food">
+							<div class="col-md-10 col-lg-6">
+								<!-- item  -->
+								<div class="item-food row">
+									
+									<div class="col-12 col-sm-8 text-list-food ">
+											<div class="name-price row">
+												<div class="name-food col-12 col-sm-auto">услуга5</a></div>
+												<div class="line-food col">
+													<div class="add-line-run"></div>
+												</div>
+											</div>
+											<div class="row"> 
+												<div class="col-12 col-sm-12 info-food">
+													описание 
+												</div>
+											</div>
+									</div>
+									<div class="price-food col-12 col-sm-2">&#36;20.00</div>
+								</div>
+							</div>
+							<div class="col-md-10 col-lg-6">
+								<!-- item  -->
+								<div class="item-food row">
+									
+									<div class="col-12 col-sm-8 text-list-food ">
+											<div class="name-price row">
+												<div class="name-food col-12 col-sm-auto">услуга6</a></div>
+												<div class="line-food col">
+													<div class="add-line-run"></div>
+												</div>
+											</div>
+											<div class="row"> 
+												<div class="col-12 col-sm-12 info-food">
+													описание
+												</div>
+											</div>
+									</div>
+									<div class="price-food col-12 col-sm-2">&#36;10.00</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row list-food">
+							<div class="col-md-10 col-lg-6">
+								<!-- item  -->
+								<div class="item-food row">
+									
+									<div class="col-12 col-sm-8 text-list-food ">
+											<div class="name-price row">
+												<div class="name-food col-12 col-sm-auto">услуга7</a></div>
+												<div class="line-food col">
+													<div class="add-line-run"></div>
+												</div>
+											</div>
+											<div class="row"> 
+												<div class="col-12 col-sm-12 info-food">
+													описание
+												</div>
+											</div>
+									</div>
+									<div class="price-food col-12 col-sm-2">&#36;10.00</div>
+								</div>
+							</div>
+							<div class="col-md-10 col-lg-6">
+								<!-- item  -->
+								<div class="item-food row">
+									
+									<div class="col-12 col-sm-8 text-list-food ">
+											<div class="name-price row">
+												<div class="name-food col-12 col-sm-auto">услуга8</a></div>
+												<div class="line-food col">
+													<div class="add-line-run"></div>
+												</div>
+											</div>
+											<div class="row"> 
+												<div class="col-12 col-sm-12 info-food">
+													описание
+												</div>
+											</div>
+									</div>
+									<div class="price-food col-12 col-sm-2">&#36;15.00</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				</a>>
+				
+			</div>
+		</div>
+	</section>
+</a>
+	
+
+
+
+
+<a name = "contacts"> 
+	<!-- Title contact page -->
+	<section>
+		<div class="bg-title-sub-page bg-menu-page-01">
+			<div class="wrap-title-sub-page">
+				<h2 class="title-l">Свяжитесь с нами</h2>
+				<h6 class="title-s">Home / Contact Us</h6>
+			</div>
+		</div>
+	</section>
+
+	<section class="content-contact-us">
+		<div class="container">
+			<div class="row">
+				<div class="responsive col-md-10 col-lg-6">
+					<h3 class="large-text">Контактная информация</h3>
+					<ul>
+						<li>Адрес: Притыцкого 158А, Минск, Беларусь</li>
+						<li>Для записи: +375(44) 797-70-70</li>
+						<li class="follow-us">FOLLOW US ON: 
+							<a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						</li>
+					</ul>
+				</div>
+				<div class="responsive col-md-10 col-lg-6">
+					<div class="messages" id="status"></div>
+					<form class="contact-form" method="post" action="includes/contact-form.php" name="contact" id="contact-form">
+						<div class="row">
+							<div class="wrap-input-contact col-left col-12 col-sm-6 wow fadeInDown" data-wow-delay="0.2s">
+								<input class="input-form small-text" type="text" id="name" name="name" placeholder="Ваше имя">
+								<span class="tooltip-validate special small-text">Name is required</span>
+								<span class="symbol-validate special"><i class="fa fa-exclamation" aria-hidden="true"></i></span>
+							</div>
+							<div class="wrap-input-contact col-right col-12 col-sm-6 wow fadeInDown" data-wow-delay="0.2s">
+								<input class="input-form small-text" type="text" id="email" name="email" placeholder="Ваш email">
+								<span class="tooltip-validate small-text">Valid email is required (ex@abc.xyz)</span>
+								<span class="symbol-validate"><i class="fa fa-exclamation" aria-hidden="true"></i></span>
+							</div>
+							
+							<div class="wrap-input-contact col-12 wow fadeInDown" data-wow-delay="0.4s">
+								<input class="small-text" type="text" name="subject" placeholder="Тема">
+							</div>
+							<div class="wrap-input-contact col-12 wow fadeInDown" data-wow-delay="0.6s">
+								<textarea class="input-form small-text" id="msg" name="msg" placeholder="Ваше сообщение"></textarea>
+								<span class="tooltip-validate small-text">Оставить сообщение</span>
+								<span class="symbol-validate"><i class="fa fa-exclamation" aria-hidden="true"></i></span>
+							</div>
+							<div class="responsive col-6 col-sm-4 wow fadeInDown" data-wow-delay="0.8s">
+								<button class="btn-with-bg au-btn" type="submit" id="contactBtn">Отправить</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<div class="map wow zoomIn">
+				<div class="contact-map" id="google_map" data-map-x="53.908691" data-map-y="27.428680" data-pin="images/icons/icon-position-map.png" data-scrollwhell="0" data-draggable="1"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+			</div>
+		</div>
+	</section>
+	</a>
+
+	<!-- Reservation -->
+	<a name = "reservation"> 
+	<div class="parallax-banner-2">
+		<div class="content-reservation">
+			<div class="text-reservation wow fadeInUp" data-wow-delay="0.2">
+				<h6>Запись</h6>
+				<h3>Записаться на прием</h3>
+			</div>
+			<div class="container">
+				<form>
+					<div class="input-reservation row wow flipInX" data-wow-delay="0.7s">
+						<div class="wrap-input-find col-12 col-sm-12 col-md-10">
+							<div class="input-find row">
+								<div class="col-10 col-sm-8 col-md-4">
+								</div>
+
+								<div class="col-10 col-sm-8 col-md-4 chose-calendar">
+									<input class="my-calendar" type="text" name="calender">
+								</div>
+
+								<div class="col-10 col-sm-8 col-md-4">
+									<select class="chose-time" name="chose-time">
+										<option>7:00 PM</option>
+										<option>8:00 PM</option>
+										<option>9:00 PM</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="col-5 col-sm-3 col-md-2">
+							<button class="btn-find-table">Записаться</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	</a>
+
+
+{{>footer}}
+
+	
+	<!-- Back to top -->
+	<div class="btn-back-to-top" id="myBtn">
+		<span class="symbol-btn-back-to-top">
+			<i class="fa fa-angle-double-up" aria-hidden="true"></i>
+		</span>
+	</div>
+	
+{{>imports}}
+
+
+</body>
+</html>
